@@ -1,0 +1,25 @@
+Package: occCompare
+Type: Package
+Title: Compare the performance of one-class classifiers
+Version: 0.1.0
+Date: 2016-09-05
+Author: Benjamin Mack
+Maintainer: Benjamin Mack <ben8mack@gmail.com>
+Description: This package provides functionality for comparing 
+  one-class classifiers over different classification problems 
+  by computing the performance loss with respect to a benchmark 
+  classifier, e.g. binary SVM. So far it supports comparing 
+  the classifiers implemented in the package oneClass, i.e.
+  one-class SVM, biased SVM and MaxEnt.
+License: MIT
+Depends:
+  caret,
+  plyr,
+  dplyr,
+  dismo,
+  ggplot2,
+  helpeR,
+  kernlab,
+  oneClass,
+  tidyr
+RoxygenNote: 5.0.1
